@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff7f8;
+  color: #241f22;
+}
+
+.card {
+  @apply bg-panel border border-border rounded-xl p-4 shadow-sm;
+}
+
+.input {
+  @apply w-full bg-white border border-border rounded-lg px-3 py-2 text-sm;
+}
